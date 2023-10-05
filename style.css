@@ -3,3 +3,40 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.container .top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/*
+*****
+HEADER
+*****
+*/
+
+.top {
+  height: 80px;
+  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.top-tags {
+  color: white;
+  background-color: #4a4a4a;
+  padding: 8px 8px;
+  display: inline-block;
+  gap: 10px;
+  margin: 5px 5px 0 0;
+  border-radius: 10px;
+}
