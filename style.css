@@ -18,6 +18,11 @@ body {
   justify-content: flex-end;
 }
 
+.container .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
 /*
 *****
 HEADER
@@ -66,8 +71,36 @@ main {
   gap: 5px;
 }
 
+.pic {
+  color: white;
+  position: relative;
+}
+
+.mic {
+  position: absolute;
+  bottom: 17px;
+  background-color: rgba(89, 100, 112, 0.6);
+  padding: 7px 7px;
+}
+
 /*
 *****
 FOOTER
 *****
 */
+
+.bottom {
+  height: 80px;
+  width: 100vw;
+  overflow-y: scroll;
+  background-color: #222222;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: white;
+}
+
+.icone-bottom {
+  display: flex;
+}
