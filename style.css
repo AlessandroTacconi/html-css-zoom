@@ -6,6 +6,7 @@
 
 body {
   font-family: sans-serif;
+  background-color: black;
 }
 
 .container {
@@ -40,3 +41,33 @@ HEADER
   margin: 5px 5px 0 0;
   border-radius: 10px;
 }
+
+/*
+*****
+MAIN
+*****
+*/
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.centro {
+  margin: 0 85px;
+  padding: 80px 0;
+  max-width: 1750px;
+}
+
+.foto {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+/*
+*****
+FOOTER
+*****
+*/
